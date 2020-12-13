@@ -1,0 +1,20 @@
+.page404{
+    transition: all 10s;
+    display: none;
+}
+
+.page404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.page404 > .main > .img404{
+    width: 40rem;
+    height: 30rem;
+    background: url(../img/404-error.png);
+    background-size: cover;
+}
